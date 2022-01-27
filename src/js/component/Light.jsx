@@ -1,5 +1,5 @@
 import React from "react";
-import "/workspace/react-hello/src/styles/Light.css";
+import "/workspace/TrafficLight/src/styles/Light.css";
 import * as PropTypes from "prop-types";
 
 const Light = (props) => {

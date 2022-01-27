@@ -1,46 +1,37 @@
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-
 .myRed {
-    margin-left: 51%;
-    margin-right: 50%;
     width: 8%;
     height: 100px;
     margin-top: 6em;
     background: red;
     border-radius: 3em;
-    z-index: 2;
     position: absolute;
 }
 .myYellow {
-    margin-left: 51%;
-    margin-right: 50%;
     width: 8%;
     height: 100px;
     margin-top: 14.5em;
     background: yellow;
     border-radius: 3em;
-    z-index: 2;
     position: absolute;
 }
 .myGreen {
-    margin-left: 51%;
-    margin-right: 50%;
     width: 8%;
     height: 100px;
     margin-top: 23em;
     background: green;
     border-radius: 3em;
-    z-index: 1;
     position: absolute;
+}
+
+.myContainer {
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 7em;
+    height: 22em;
+    margin-top: 5em;
+    background: black;
+    border-radius: 2em;
+    padding: 0.5em;
+
 }

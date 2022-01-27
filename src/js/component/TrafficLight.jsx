@@ -1,5 +1,5 @@
 import React from "react";
-import "/workspace/react-hello/src/styles/TrafficLight.css";
+import "/workspace/TrafficLight/src/styles/TrafficLight.css";
 
 const TrafficLight = () => {
 	return (
