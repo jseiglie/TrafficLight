@@ -1,12 +1,8 @@
 import React from "react";
-import "../../styles/TrafficLight.css";
+import "../../TrafficLight.css";
 
 const TrafficLight = () => {
-	return (
-		<>
-			<div className="container myContainer"></div>
-		</>
-	);
+	return <></>;
 };
 
 export default TrafficLight;
