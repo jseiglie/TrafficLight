@@ -1,11 +1,11 @@
 .myContainer {
     margin-left: 50%;
     margin-right: 50%;
-    width: 10%;
-    height: 400px;
+    width: 95px;
+    height: 385px;
     margin-top: 5em;
-    background: grey;
-    border-radius: 3em;
+    background: black;
+    border-radius: 2em;
     z-index: 0;
     position: absolute;
 }

@@ -5,12 +5,13 @@ import * as PropTypes from "prop-types";
 const Light = (props) => {
 	return (
 		<>
-			<div className={props.classLight}></div>
+			<div onClick={props.click} className={props.classLight}></div>
 		</>
 	);
 };
 
 Light.propTypes = {
 	classLight: PropTypes.string,
+	click: PropTypes.func,
 };
 export default Light;

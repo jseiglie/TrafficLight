@@ -11,19 +11,28 @@ import "/workspace/react-hello/src/styles/Glow.css";
 const Home = () => {
 	const [glow, setGlow] = useState("Yellow");
 
-	//onClick={() => (setGlow = "Red")}
+	//
 	return (
 		<>
 			<TrafficLight />
 			<Light
+				click={() => {
+					setGlow("Red");
+				}}
 				classLight={
-					"Light Red" + (glow === "Red" ? " Glow" : "")
+					"Light Red" + (glow == "Red" ? " Glow" : "")
 				}></Light>
 			<Light
-				classLight={"Light Yellow" + (glow === "Yellow" ? " Glow" : "")}
+				click={() => {
+					setGlow("Yellow");
+				}}
+				classLight={"Light Yellow" + (glow == "Yellow" ? " Glow" : "")}
 			/>
 			<Light
-				classLight={"Light Green" + (glow === "Green" ? " Glow" : "")}
+				click={() => {
+					setGlow("Green");
+				}}
+				classLight={"Light Green" + (glow == "Green" ? " Glow" : "")}
 			/>
 		</>
 	);
