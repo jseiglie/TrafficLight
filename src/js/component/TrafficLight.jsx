@@ -1,6 +1,5 @@
 import React from "react";
 import "../../styles/TrafficLight.css";
-import Home from "../views/home.jsx";
 
 const TrafficLight = () => {
 	return (
