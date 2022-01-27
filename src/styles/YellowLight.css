@@ -1,0 +1,11 @@
+.myYellow {
+    margin-left: 51%;
+    margin-right: 50%;
+    width: 8%;
+    height: 100px;
+    margin-top: 14.5em;
+    background: yellow;
+    border-radius: 3em;
+    z-index: 2;
+    position: absolute;
+}

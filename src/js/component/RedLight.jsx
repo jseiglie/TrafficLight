@@ -4,11 +4,7 @@ import "../../styles/RedLight.css";
 const RedLight = () => {
 	return (
 		<>
-			<div className="row">
-				<div className="container myRed">
-					<p></p>
-				</div>
-			</div>
+			<div className="container myRed"></div>
 		</>
 	);
 };

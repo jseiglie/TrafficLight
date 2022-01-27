@@ -4,11 +4,7 @@ import "../../styles/GreenLight.css";
 const GreenLight = () => {
 	return (
 		<>
-			<div className="row">
-				<div className="container myGreen">
-					<p></p>
-				</div>
-			</div>
+			<div className="container myGreen"></div>
 		</>
 	);
 };

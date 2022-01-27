@@ -1,11 +1,11 @@
 .myRed {
-    margin-left: 50%;
+    margin-left: 51%;
     margin-right: 50%;
     width: 8%;
     height: 100px;
-    margin-top: 14em;
+    margin-top: 6em;
     background: red;
     border-radius: 3em;
     z-index: 2;
-    position: relative;
+    position: absolute;
 }
