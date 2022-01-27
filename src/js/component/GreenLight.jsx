@@ -1,12 +1,18 @@
+import propTypes from "prop-types";
 import React from "react";
 import "../../styles/GreenLight.css";
+import * as PropTypes from "prop-types";
 
-const GreenLight = () => {
+const GreenLight = (props) => {
 	return (
 		<>
-			<div className="container myGreen"></div>
+			<div className={props.greenClass}></div>
 		</>
 	);
+};
+
+GreenLight.propTypes = {
+	greenClass: PropTypes.string,
 };
 
 export default GreenLight;
